@@ -1,0 +1,44 @@
+/* Основные настройки страницы */
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ffffff;
+  background-color: #2e2d2d;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Общие настройки элементов */
+* {
+  box-sizing: border-box;
+}
+
+/* Настройки всей страницы */
+html,
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100%;
+  background-color: #2e2d2d;
+}
+
+/* Основной контейнер React */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Убираем стандартные отступы заголовков и параграфов */
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+}
+
+/* Общие настройки кнопок */
+button,
+input {
+  font-family: inherit;
+}
